@@ -1,0 +1,62 @@
+/* Rounded Corner */
+.tb5 {
+	/*background: url(../images/rounded.gif) no-repeat top left;*/
+	height: 22px;
+	width: 230px;
+	border: 0;
+	font-size:10px;
+	
+
+	
+}
+
+.btn{
+
+/* 	background-image: url("../images/btn.gif");
+    background-repeat: no-repeat;*/
+	background-color:#544E4F;
+	border:2px solid white;
+	color:white;
+	font-size:10px;
+	height:21px;
+	left:150px;
+	
+	width:80px;
+   
+    position:relative;
+	top:5px;
+}
+.btn:focus{
+	outline: none;
+ 	border:none;
+
+}
+#result {
+
+	color:red;
+	font-size:14px;
+}
+
+div.rounded-box{
+	 position:relative;
+	 background-color:grey;
+	height:70px;
+	width:280px;
+	 border-radious:50px;
+	 -moz-border-radius-bottomright: 1em ;
+	border-bottom-right-radius: 1em ;
+	 -moz-border-radius-topright: 1em ;
+	border-top-right-radius: 1em ;
+	 -moz-border-radius-bottomleft:1em ;
+	border-bottom-left-radius: 1em ;
+	 -moz-border-radius-topleft: 1em ;
+	border-top-left-radius: 1em ;
+
+}
+.box-contents{
+	position:relative;
+	top:9px;
+	float:right;
+	right:7px;
+	width:250px;
+}
